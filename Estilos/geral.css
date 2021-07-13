@@ -1,0 +1,13 @@
+h1 {
+    color: rgb(255, 145, 0);
+}
+
+h3 {
+    color: rgb(224, 155, 65);
+}
+
+.rodape {
+    border-color: black;
+    border-width: 3px;
+    border-style: inset;
+}

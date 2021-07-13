@@ -1,0 +1,27 @@
+.ladoEsquerdo {
+    background: rgb(24, 23, 23);
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ladoDireito {
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.botaoCadastro {
+    margin: 5px;
+    margin-top: 15px;
+    width: 250px;
+}
+
+.botaoEntrar {
+    margin: 5px;
+    width: 250px;
+}
