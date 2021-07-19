@@ -3,8 +3,10 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Esqueci minha senha - Onde Parei?</title>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Estilos\paginaEsqueciSenha.css">
     <link rel="stylesheet" href="Estilos\geral.css">
 
     <meta charset="utf-8">
@@ -12,7 +14,42 @@
 </head>
 
 <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-5 ladoEsquerdo">
+                <h1>Onde parei?</h1>
+                <h3>Nunca mais esqueça o episódio onde parou em suas séries</h3>
+                <h3>e os filmes que você já assistiu</h3>
+            </div>
+            <div class="col-xs-7 ladoDireito">
 
+                <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                  </svg>
+                <hr>
+
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Seu Email:</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu Email">
+                    <small id="emailHelp" class="form-text text-muted">Digite o Email Cadastrado</small>
+                </div>
+                <div class="form-group">
+                    <label for="usr">Digite seu nome de usuario</label>
+                    <input type="text" class="form-control" id="usr" placeholder="Digite seu usuário">
+                </div>
+                <button type="button" class="btn botaoEsqueciSenha">Receber minha senha</button>
+
+                <a href="paginaInicial.html">Voltar para página inicial</a>
+
+
+
+
+            </div>
+        </div>
+
+
+    </div>
 
     <footer class="footer rodape footer navbar-fixed-bottom">
         <div class="container">

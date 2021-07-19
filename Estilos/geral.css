@@ -11,3 +11,9 @@ h3 {
     border-width: 3px;
     border-style: inset;
 }
+
+hr {
+    border-color: #aaa;
+    box-sizing: border-box;
+    width: 50%;
+}
