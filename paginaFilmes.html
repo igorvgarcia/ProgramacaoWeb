@@ -23,9 +23,9 @@
                 </div>
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="paginaInicial.html">Página Inicial</a></li>
-                    <li><a href="#">Page 1</a></li>
-                    <li><a href="#">Page 2</a></li>
-                    <li><a href="#">Page 3</a></li>
+                    <li><a href="#">Sobre  (Inativo)</a></li>
+                    <li><a href="#">Page 2  (Inativo)</a></li>
+                    <li><a href="#">Page 3  (inativo)</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="paginaCadastro.html"><span class="glyphicon glyphicon-user"></span> Fazer cadastro</a></li>
@@ -47,7 +47,7 @@
                             venenatis. Vestibulum mattis gravida lectus in placerat. Mauris consectetur aliquam sem, at consectetur augue porta a.
 
                         </p>
-                        <div class="form-check checkboxAssistido">
+                        <div id="filme1Check" class="form-check checkboxAssistido">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             <label class="form-check-label" for="flexCheckDefault">
                               Já assisti esse filme
@@ -67,7 +67,7 @@
                             odio eros, vestibulum ut eleifend et, interdum vitae enim.
 
                         </p>
-                        <div class="form-check checkboxAssistido">
+                        <div id="filme2Check" class="form-check checkboxAssistido">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             <label class="form-check-label" for="flexCheckDefault">
                               Já assisti esse filme
@@ -86,7 +86,7 @@
                             eleifend tempus nibh.
 
                         </p>
-                        <div class="form-check checkboxAssistido">
+                        <div id="filme3Check" class="form-check checkboxAssistido">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             <label class="form-check-label" for="flexCheckDefault">
                               Já assisti esse filme
@@ -105,7 +105,7 @@
                             Nulla facilisi. .
 
                         </p>
-                        <div class="form-check checkboxAssistido">
+                        <div id="filme4Check" class="form-check checkboxAssistido">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             <label class="form-check-label" for="flexCheckDefault">
                               Já assisti esse filme
@@ -124,7 +124,7 @@
                             dis parturient montes, nascetur ridiculus mus.
 
                         </p>
-                        <div class="form-check checkboxAssistido">
+                        <div id="filme5Check" class="form-check checkboxAssistido">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             <label class="form-check-label" for="flexCheckDefault">
                               Já assisti esse filme
@@ -143,7 +143,7 @@
                             sed urna ultrices tristique vel vel nulla. Suspendisse commodo arcu urna, nec laoreet lacus eleifend in. Aliquam hendrerit efficitur nibh vel tincidunt. Vestibulum vitae egestas erat. Maecenas vulputate purus non pharetra vehicula.
 
                         </p>
-                        <div class="form-check checkboxAssistido">
+                        <div id="filme6Check" class="form-check checkboxAssistido">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             <label class="form-check-label" for="flexCheckDefault">
                               Já assisti esse filme
@@ -163,6 +163,116 @@
             <span class="text-muted">IF66H - PROGRAMAÇÃO WEB 1 - ES61 (2021_01)</span>
         </div>
     </footer>
+
+    <script>
+        window.onload = function() {
+            var filme1 = document.getElementById("filme1Check")
+
+            filme1.addEventListener("click", clickFilme1)
+
+            var filme1 = document.getElementById("filme1Check")
+
+            filme1.addEventListener("click", filme1Assistido)
+
+            var filme2 = document.getElementById("filme2Check")
+
+            filme2.addEventListener("click", clickFilme2)
+
+            var filme2 = document.getElementById("filme2Check")
+
+            filme2.addEventListener("click", filme2Assistido)
+
+            var filme3 = document.getElementById("filme3Check")
+
+            filme3.addEventListener("click", clickFilme3)
+
+            var filme3 = document.getElementById("filme3Check")
+
+            filme3.addEventListener("click", filme3Assistido)
+
+            var filme4 = document.getElementById("filme4Check")
+
+            filme4.addEventListener("click", clickFilme4)
+
+            var filme4 = document.getElementById("filme4Check")
+
+            filme4.addEventListener("click", filme4Assistido)
+
+            var filme5 = document.getElementById("filme5Check")
+
+            filme5.addEventListener("click", clickFilme5)
+
+            var filme5 = document.getElementById("filme5Check")
+
+            filme5.addEventListener("click", filme5Assistido)
+
+            var filme6 = document.getElementById("filme6Check")
+
+            filme6.addEventListener("click", clickFilme6)
+
+            var filme6 = document.getElementById("filme6Check")
+
+            filme6.addEventListener("click", filme6Assistido)
+        }
+
+
+
+        function clickFilme1() {
+            alert('Filme 1 assistido')
+
+        }
+
+        function filme1Assistido() {
+            document.querySelector("#filme1Check").innerHTML = 'Filme assistido'
+        }
+
+
+
+        function clickFilme2() {
+            alert('Filme 2 assistido')
+
+        }
+
+        function filme2Assistido() {
+            document.querySelector("#filme2Check").innerHTML = 'Filme assistido'
+        }
+
+        function clickFilme3() {
+            alert('Filme 3 assistido')
+
+        }
+
+        function filme3Assistido() {
+            document.querySelector("#filme3Check").innerHTML = 'Filme assistido'
+        }
+
+        function clickFilme4() {
+            alert('Filme 4 assistido')
+
+        }
+
+        function filme4Assistido() {
+            document.querySelector("#filme4Check").innerHTML = 'Filme assistido'
+        }
+
+        function clickFilme5() {
+            alert('Filme 5 assistido')
+
+        }
+
+        function filme5Assistido() {
+            document.querySelector("#filme5Check").innerHTML = 'Filme assistido'
+        }
+
+        function clickFilme6() {
+            alert('Filme 6 assistido')
+
+        }
+
+        function filme6Assistido() {
+            document.querySelector("#filme6Check").innerHTML = 'Filme assistido'
+        }
+    </script>
 </body>
 
 </html>
